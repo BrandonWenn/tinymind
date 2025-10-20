@@ -190,15 +190,7 @@ export default function Header({
               </div>
             </div>
           )}
-          <Link
-            href="https://github.com/mazzzystar/tinymind"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-black hover:text-gray-500"
-            onClick={() => console.log("[Header] Clicked GitHub link")}
-          >
-            <FaGithub size={24} />
-          </Link>
+       
         </div>
       </div>
     </header>
